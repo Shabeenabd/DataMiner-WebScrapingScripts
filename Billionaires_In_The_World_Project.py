@@ -1,4 +1,4 @@
-#------web scraping data about "billionairs in the world" from the site to the csv file 
+#------web scraping data about "Top1 00 Billionairs in the world" from the site to the csv file 
 #------------importing libraries
 import requests,pandas
 from bs4 import BeautifulSoup as bs
