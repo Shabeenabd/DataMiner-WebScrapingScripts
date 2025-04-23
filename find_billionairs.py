@@ -1,10 +1,13 @@
-#------web scraping data about "Top1 00 Billionairs in the world" from the site to the csv file 
-#------------importing libraries
-import requests,pandas
+"""
+web scraping data about "Top  00 Billionairs in the world" from the site to the csv file 
+"""
+# Importing libraries
+import requests
+import pandas
 from bs4 import BeautifulSoup as bs
 
-#------------website url 
-url="https://ceoworld.biz/2023/03/04/the-worlds-richest-people-top-billionaires-2023/"
+# website url 
+url = "https://ceoworld.biz/2023/03/04/the-worlds-richest-people-top-billionaires-2023/"
 
 #------------creating connection and response
 page =requests.get(url)
